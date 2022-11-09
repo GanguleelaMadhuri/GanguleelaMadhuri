@@ -1,0 +1,9 @@
+docker --version
+docker run -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-jdk11
+docker images
+docker ps
+docker ps -a
+copy the password
+localhost:8080 or 8090
+paste the password
+

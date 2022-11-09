@@ -1,0 +1,13 @@
+mkdir hello-docker
+cd hello-docker
+code .
+docker build -t hello-docker
+docker images
+docker run -d nginx
+docker ps
+docker ps -a
+docker stop(id)
+docker rm(id)
+dockey/history
+
+

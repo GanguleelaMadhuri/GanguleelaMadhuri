@@ -1,0 +1,42 @@
+Pwd: displays the current working directory of the terminal 
+/: root directory (cd /)
+echo: command that writes its arguments to standard output (echo hi, x=100, echo $x)
+sudo su: executes only to switch to a different user
+clear: this command is used to clear the terminal screen contents will not be deleted but scrolled down
+ls: list the contents of a current working directory
+cd .. : changes the directory to its parent directory
+cd / : changes the directory to root directory
+cd ~ : this command also changes the directory to home directory
+exit : if you can exit file or entire terminal you want exit
+sudo ls : list down the present working directory
+man : man command is used to display the manual pages for a given command or topic.( man touch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chmod +x file - Adds execute permission to a file.
+chmod -x file - Removes execute permission from a file.
+chmod +r file - Adds read permission to a file.
+chmod -r file - Removes read permission from a file.
+chmod +w file - Adds write permission to a file.
+chmod -w file - Removes write permission from a file.
+chmod u+x file - Adds execute permission for the owner of the file.
+chmod g+r file - Adds read permission for the group owner of the file.
+chmod o-w file - Removes write permission for other users.
+chmod a=rwx file - Gives all users (owner, group, and other) read, write, and execute permissions to a file.
+chmod 755 file - Sets the permissions of a file to rwxr-xr-x, which gives the owner full permissions, and the group and others read and execute permissions.
+chmod 644 file - Sets the permissions of a file to rw-r--r--, which gives the owner full permissions, and the group and others read-only permissions.

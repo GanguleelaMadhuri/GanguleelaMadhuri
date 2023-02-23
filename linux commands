@@ -10,13 +10,30 @@ cd ~ : this command also changes the directory to home directory
 exit : if you can exit file or entire terminal you want exit
 sudo ls : list down the present working directory
 man : man command is used to display the manual pages for a given command or topic.( man touch)
-
-
-
-
-
-
-
+cat: This command is used to concatenate and display the contents of one or more files on the terminal (Syntax: cat file1 file2 file3...)
+{grep : the grep commands to search a particular string/word in a textfile (cat > automobiles.txt, write some things like: car,bike,bicycle,BMW. cat automobiles.txt,grep ma automobiles.txt)its will reflect the output
+(-i: ignore case distinctions
+-r: search recursively through directories
+-v: invert the match, i.e., show lines that do not match the pattern
+-c: show only a count of matching lines, rather than the lines themselves
+-l: show only the names of files that contain matching lines
+-n: show line numbers for matching lines
+-E: use extended regular expressions)}
+Sort: sort command is to sort the results of a search either alphabetically or numerically files,file contents and directories can be stored.
+sort file: sort the lines in the file file alphabetically
+sort -n file: sort the lines in file numerically
+sort -k 2,3 file: sort the lines in file by the second and third columns
+sort -u file: sort the lines in file and remove duplicates
+sort -t , -k 2 file: sort the lines in file by the second column, using commas as the delimiter.
+grep dh automobiles.txt | sort(dh word is not there in the list not reflect output)
+grep dodge automobiles.txt | sort (word you can give that you will get output)
+grep h automobiles.txt | sort( h word it can split output)
+grep h automobiles.txt | sort -r ( it will reflect reverse order)
+cp : cp command is used to copy files or directories from one location to another.( 
+-i: Interactive mode, prompts you before overwriting an existing file.
+-r: Recursively copies directories and their contents.
+-p: Preserves the file attributes, such as permissions and timestamps, of the original file.
+-v: Verbose mode, prints the names of the files being copied.
 
 
 

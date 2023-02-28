@@ -33,10 +33,24 @@ cp : cp command is used to copy files or directories from one location to anothe
 -i: Interactive mode, prompts you before overwriting an existing file.
 -r: Recursively copies directories and their contents.
 -p: Preserves the file attributes, such as permissions and timestamps, of the original file.
+nslookup is a useful tool for troubleshooting DNS issues, verifying DNS records, and obtaining information about domain names and IP addresses.
+traceroute :is a command-line tool used to track the path of packets from one network device to another over an IP network.
 -v: Verbose mode, prints the names of the files being copied.
-
-
-
+cd : its comes to starting current directory
+curl ifconfig.me: check your ip address
+df: Display disk space usage
+curl: downloading files by using curl command
+wget:wget is a command-line utility used for downloading files from the internet. It is similar to the curl command but is primarily used for downloading files rather than sending requests. 
+Ping: ping command uses the network of server it send the data of the server(c means count,s means size,i means millisecond) ( ping -c 2 google.com) (ping -s 100 google.com) (ping -i 0.5 google.com)
+dd:The dd command is a Linux command-line utility used for copying and converting data. It can be used for a wide range of tasks, including disk imaging, backup and restore, and low-level data manipulation.
+init:init command has been replaced by newer initialization systems such as Systemd, Upstart, or SysV init.
+nslookup:nslookup is a command-line tool used to query DNS (Domain Name System) servers to obtain information about domain names and IP addresses.
+nslookup is a useful tool for troubleshooting DNS issues, verifying DNS records, and obtaining information about domain names and IP addresses.(its similar to ping)
+netstat:netstat is a command-line tool used to display various network-related information such as network connections, routing tables, and network interfaces.
+gzip:Compress a file: The gzip command can be used to compress a file, reducing its size and saving disk space. The compressed file has the extension .gz
+chown:The chown command lets you change the ownership of a file, directory, or symbolic link to a specified username.(, you want to make linuxuser2 the owner of filename.txt:
+chown linuxuser2 filename.txt)
+hostname -i : your hostname it can display
 
 
 

@@ -2,6 +2,7 @@ Pwd: displays the current working directory of the terminal
 /: root directory (cd /)
 echo: command that writes its arguments to standard output (echo hi, x=100, echo $x)
 sudo su: executes only to switch to a different user
+su username: su ubuntu go to the root user
 clear: this command is used to clear the terminal screen contents will not be deleted but scrolled down
 ls: list the contents of a current working directory
 cd .. : changes the directory to its parent directory

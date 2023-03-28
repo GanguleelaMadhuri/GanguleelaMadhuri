@@ -59,7 +59,7 @@ hostname -i : your hostname it can display
 
 
 
-
+chmod og+s file
 chmod +x file - Adds execute permission to a file.
 chmod -x file - Removes execute permission from a file.
 chmod +r file - Adds read permission to a file.
